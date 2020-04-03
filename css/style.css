@@ -1,3 +1,10 @@
+/*quitar scrollbar de abajo*/
+
+body {
+    overflow-x: hidden;
+}
+
+
 /*quitar subrayado*/
 
 a:hover {
@@ -787,6 +794,7 @@ tea,
 
 .services {
     background-image: url(../img/estadiofutbol.jpg);
+    /*dar tamaño arriba y abajo a la imagen*/
     padding-top: 130px;
     padding-bottom: 130px;
     background-attachment: fixed;
@@ -1062,4 +1070,213 @@ post-slide:hover .post-ing::before {
     color: #555;
     margin-bottom: 20px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*dar forma a los numeros*/
+
+.numbers {
+    background-image: url(../img/bg-testimonials.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /*dar altura y hacia abajo a la imagen*/
+    padding-top: 140px;
+    padding-bottom: 150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.color-fff {
+    color: white;
+}
+
+.fs-35 {
+    font-size: 70px;
+}
+
+.fw-700 {
+    font-weight: bold;
+}
+
+.color-aaa {
+    text-transform: uppercase;
+    font-size: 500;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white !important;
+    letter-spacing: 2px;
+}
+
+.numbers .fa {
+    font-size: 70px;
+}
+
+
+/*dar estilo a los logos*/
+
+#clients-list {
+    padding: 45px 0 0 0;
+    margin-left: 115px;
+}
+
+.client {
+    padding: 0 10px;
+    max-width: 170px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.client img {
+    display: inline-block !important;
+}
+
+#client h5 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#clients h2 {
+    font-size: 34px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*Dar estilo al contactanos*/
+
+footer {
+    background-color: #1c1c1d;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h2,
+#contact-right h3 {
+    color: white !important;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+#contact-left p {
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#contact-info {
+    background-image: url(../img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+address strong {
+    font-size: 17px;
+}
+
+
+/*Dar al form*/
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 17px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+/*Dar al footer*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 59px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: white;
+}
+
+#footer-menu {
+    float: left;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+/*var de navegacion de abajo*/
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#footer-menu a:hover {
+    color: orange;
+}
+
+
+/*redes sociales*/
+
+ul.social-list {
+    display: flex;
+    color: white;
+}
+
+ul.social-list li a {
+    margin-right: 10px;
+    color: white;
+}
+
+
+/*boton enviar*/
+
+#btn-white:hover {
+    border-color: white;
+    color: #fff;
+}
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 25px 12px 25px;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-color: white;
+}
+
+#footer-copyrights p {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
 }
